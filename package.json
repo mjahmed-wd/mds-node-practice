@@ -1,15 +1,17 @@
 {
-  "name": "tm-crash-couse---node",
+  "name": "TM_Crash_couse",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "repository": "https://github.com/mjahmed-wd/mds-node-practice.git",
+  "author": "Jubair <mjahmed.wd@gmail.com>",
+  "license": "MIT",
   "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "moment": "^2.29.3",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
